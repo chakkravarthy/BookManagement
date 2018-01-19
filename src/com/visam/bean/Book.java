@@ -12,6 +12,7 @@ public class Book implements Serializable {
 	private String bookName;
 	private String author;
 	private Float price;
+	
 	public Integer getId() {
 		return id;
 	}
@@ -34,7 +35,7 @@ public class Book implements Serializable {
 		return price;
 	}
 	public void setprice(Float price) {
-		price = price;
+		this.price = price;
 	}
 
 }
